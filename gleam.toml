@@ -1,0 +1,10 @@
+name = "arc_example"
+version = "1.0.0"
+target = "erlang"
+description = "Example of embedding the Arc JavaScript engine: parsing JS, walking module graphs, and bundling/running a real multi-module app from disk"
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+arc = { git = "https://github.com/alii/arc.git", ref = "master" }
+simplifile = ">= 2.0.0 and < 3.0.0"
+gleam_json = ">= 2.3.0 and < 4.0.0"
